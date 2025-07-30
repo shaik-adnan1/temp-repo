@@ -23,8 +23,13 @@ html -> HyperText markup Language
 <html>
   <head>
     <title>Kaido - Watch anime for Free</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
   </head>
-  <img>
     <!-- create a navigation Links that redirect to the respetive links. -->
 
     <!-- The tag that converts text into a clickable link -->
@@ -70,6 +75,14 @@ html -> HyperText markup Language
 
     <h1>Kaido - King of Beasts</h1>
 
+    <nav>
+      <a href="https://kaido.to/home">Home Link</a>
+      <a href="https://kaido.to/home">Movies</a>
+      <a href="https://kaido.to/home">TV Series</a>
+      <a href="https://kaido.to/home">Most aoaular</a>
+      <a href="https://kaido.to/home">Top Airing</a>
+    </nav>
+
     <p>
       Kaidou is a middle-aged man who cuts an imposing figure due to his extreme
       height of 710 cm and the bulk of his muscles, making him dwarf normal
@@ -77,6 +90,8 @@ html -> HyperText markup Language
     </p>
     <a href="https://kaido.to"> check out kaido website </a>
     
+    
+
     <!-- 
     Image tag only has the src attribute and that's 
     -->
@@ -139,6 +154,77 @@ html -> HyperText markup Language
         <h1>AnimeSuge - good website</h1>
       </li>
     </ul>
+
+    <!-- 
+    In order to create a table you need <table>
+    -->
+
+    <table>
+      <!-- 
+      
+      table - heading
+      table - rows
+      table - data
+      
+      -->
+
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Age
+          </th>
+          <th>
+            Location
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            Adnan
+          </td>
+          <td>
+            21
+          </td>
+          <td>
+            Atmakur
+          </td>
+        </tr>
+        <tr>
+          <td>Saif</td>
+          <td>20</td>
+          <td>Texas</td>
+        </tr>
+      </tbody>
+
+    </table>
+    
+    <button>
+      This is a button
+    </button>
+   
+
+    <form>
+      <br>
+      <label for="Email">Email Address</label>
+      <input type="email" id="Email" name="Email" placeholder="Input your email Address" required><br><br>
+
+      <label for="password-feild">Password</label>
+      <input type="password" id="password-feild" placeholder="Enter your password" required>
+
+      <label for="rememberme">
+        <input id="rememberme" type="checkbox" required>
+        Remember me
+      </label>
+      
+      <button type="submit">
+        Login
+      </button>
+    </form>
 
   </body>
 </html>
