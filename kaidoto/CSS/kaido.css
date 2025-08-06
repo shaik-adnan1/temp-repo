@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  color: white;
+}
+
+.main-contianer {
+  background-image: url("https://kaido.to/images/home-bg.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImg {
+  height: 60px;
+}
+
+.kaidoImg {
+  height: auto;
+  width: 500px;
+}
