@@ -1,23 +1,36 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/*
 
-  color: white;
+- html element
+- class
+- id
+
+*/
+
+/* 
+.common_p_styles {
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: fit-content;
 }
 
+.set1_paras {
+  font-size: 40px;
+  color: blueviolet;
+}
+
+.set2_paras {
+  color: aqua;
+}
+
+#para_1_2 {
+  background-color: transparent;
+} */
+
 .main-contianer {
-  background-image: url("https://kaido.to/images/home-bg.webp");
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url("../assets/images/home-bg.webp");
+  background-repeat: no-repeat;
 }
 
 .logoImg {
   height: 60px;
-}
-
-.kaidoImg {
-  height: auto;
-  width: 500px;
 }
